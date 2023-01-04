@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
-
+#include <string.h>
 
 int main(void)
 {
@@ -11,7 +10,8 @@ int main(void)
 
     printf("Enter your number: ");
     scanf("%d", &number);
-
+    getchar();
+    
     while(number != 0)
     {
         if(number >= 1000)
